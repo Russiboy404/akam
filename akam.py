@@ -15,7 +15,7 @@ def chk():
             msg = str(os.geteuid())
             time.sleep(2)
         else:
-            print '\x1b[91mBarezm Id kat active nya Tkaya bo Active krdn nama bnera bo telegram @sell_pubg9.......'
+            print '\x1b[91mBarezm Id kat active nya Tkaya bo Active krdn nama bnera bo telegram Akam.......'
             time.sleep(2)
             sys.exit()
     except:
