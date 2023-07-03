@@ -1,8 +1,7 @@
 import os
 import time
 import sys
-import requests
-def chk():
+
 print('''\033[91m
    _   _   _   _  
   / \ / \ / \ / \ 
