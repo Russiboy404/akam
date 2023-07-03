@@ -9,7 +9,7 @@ def chk():
     print '\x1b[37;1mIDY XOT : ' + id
     
     try:
-        httpCaht = requests.get('https://github.com/Russiboy404/akam/blob/main/Id.txt').text
+        httpCaht = requests.get('https://github.com/Russiboy404/akam/blob/main/id.txt').text
         if id in httpCaht:
             print '\x1b[92mDLY MN IDIY ACTIVA.........'
             msg = str(os.geteuid())
