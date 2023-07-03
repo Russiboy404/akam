@@ -3,14 +3,6 @@ import time
 import sys
 import requests
 def chk():
-	
-    
-            print logo
-            chk()
-            
-chk()
-os.system("clear")
-
 print('''\033[91m
    _   _   _   _  
   / \ / \ / \ / \ 
