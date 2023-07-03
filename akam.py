@@ -6,7 +6,7 @@ def chk():
 	
     uuid = str(os.geteuid()) + str(os.getlogin())
     id = '-'.join(uuid)
-    print '\x1b[37;1mIDY XOT : ' + id;
+    
     
     try:
         httpCaht = requests.get('https://github.com/Russiboy404/akam/blob/main/Id.txt').text
